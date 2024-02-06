@@ -1,0 +1,17 @@
+.highlight {
+    background-color: yellow;
+  }
+
+  .pagination {
+    display: flex;
+    list-style: none;
+  }
+
+  .pagination li {
+    margin-right: 5px;
+    cursor: pointer;
+  }
+
+  .pagination li.active {
+    font-weight: bold;
+  }
